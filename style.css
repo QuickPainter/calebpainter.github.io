@@ -86,6 +86,19 @@ a:focus-visible, button:focus-visible {
   padding: 72px clamp(20px, 6vw, 48px) 56px;
 }
 .hero-inner { max-width: var(--maxw); margin: 0 auto; }
+
+.hero-flex { display: flex; gap: 28px; align-items: flex-start; flex-wrap: wrap; }
+.photo-wrap { flex: none; }
+.profile-photo {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border: 1px solid var(--line-strong);
+  filter: grayscale(100%);
+  display: block;
+}
+.hero-text { flex: 1 1 320px; min-width: 260px; }
+
 .eyebrow {
   font-size: 12px;
   letter-spacing: 0.06em;
