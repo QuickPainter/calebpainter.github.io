@@ -87,17 +87,17 @@ a:focus-visible, button:focus-visible {
 }
 .hero-inner { max-width: var(--maxw); margin: 0 auto; }
 
-.hero-flex { display: flex; gap: 28px; align-items: flex-start; flex-wrap: wrap; }
+.hero-flex { display: flex; gap: 40px; align-items: flex-start; flex-wrap: wrap; }
 .photo-wrap { flex: none; }
 .profile-photo {
-  width: 128px;
-  height: 128px;
+  width: 260px;
+  height: 320px;
   object-fit: cover;
   border: 1px solid var(--line-strong);
   filter: grayscale(100%);
   display: block;
 }
-.hero-text { flex: 1 1 320px; min-width: 260px; }
+.hero-text { flex: 1 1 360px; min-width: 280px; }
 
 .eyebrow {
   font-size: 12px;
