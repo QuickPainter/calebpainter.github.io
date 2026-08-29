@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV — Caleb</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav" aria-label="Primary">
+  <a class="mark" href="index.html">caleb.<span class="fillin" style="background:none;padding:0;">lastname</span></a>
+  <ul>
+    <li><a class="nav-link" href="index.html">about</a></li>
+    <li><a class="nav-link" href="research.html">research</a></li>
+    <li><a class="nav-link" href="cv.html" aria-current="page">cv</a></li>
+    <li><a class="nav-link" href="interests.html">other interests</a></li>
+  </ul>
+</nav>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <h1>Curriculum vitae</h1>
+    <p class="lede">Education, fellowships, and experience. Full PDF available for download below.</p>
+  </div>
+</header>
+
+<main>
+  <p style="margin-bottom:40px;">
+    <a href="cv.pdf" class="download-btn">download cv (pdf) ↓</a>
+    <span class="fillin" style="display:block; margin-top:8px; font-size:12.5px;">Replace cv.pdf with your actual CV file, placed in this same folder.</span>
+  </p>
+
+  <section id="education">
+    <h2 class="section-title">education</h2>
+
+    <div class="cv-entry">
+      <div class="dates">2026 –</div>
+      <div class="what">
+        <strong>Ph.D., Astronomy &amp; Astrophysics</strong>
+        <div class="where">Princeton University</div>
+      </div>
+    </div>
+
+    <div class="cv-entry">
+      <div class="dates"><span class="fillin">20XX</span></div>
+      <div class="what">
+        <strong>A.B., Astrophysics, Physics, and History of Science</strong>
+        <div class="where">Harvard University · Summa cum laude, highest honors</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="fellowships">
+    <h2 class="section-title">fellowships &amp; honors</h2>
+
+    <div class="cv-entry">
+      <div class="dates"><span class="fillin">20XX</span> –</div>
+      <div class="what">
+        <strong>NSF Graduate Research Fellowship</strong>
+        <div class="where">National Science Foundation · deferred for a first-year fellowship at Princeton</div>
+      </div>
+    </div>
+
+    <div class="cv-entry">
+      <div class="dates"><span class="fillin">20XX</span></div>
+      <div class="what">
+        <strong>Michael C. Rockefeller Memorial Fellowship</strong>
+        <div class="where">Crewed traditional sailing vessels in New Zealand and Taiwan; trained in celestial navigation with Polynesian voyaging communities</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications-cv">
+    <h2 class="section-title">publications</h2>
+    <p>Three first-author papers as an undergraduate. Full list on the <a href="research.html">research</a> page.</p>
+  </section>
+
+  <section id="languages">
+    <h2 class="section-title">languages</h2>
+    <p>French (fluent) · Spanish (proficient)</p>
+  </section>
+</main>
+
+<footer>
+  <span>© <span id="year"></span> Caleb <span class="fillin" style="background:none;padding:0;">Last name</span></span>
+  <a href="index.html">← back to about</a>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

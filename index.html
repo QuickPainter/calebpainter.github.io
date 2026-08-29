@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caleb — Astronomy &amp; Astrophysics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav" aria-label="Primary">
+  <a class="mark" href="index.html">caleb.<span class="fillin" style="background:none;padding:0;">lastname</span></a>
+  <ul>
+    <li><a class="nav-link" href="index.html" aria-current="page">about</a></li>
+    <li><a class="nav-link" href="research.html">research</a></li>
+    <li><a class="nav-link" href="cv.html">cv</a></li>
+    <li><a class="nav-link" href="interests.html">other interests</a></li>
+  </ul>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">astronomy &amp; astrophysics — princeton university</p>
+    <h1 class="name">Caleb <span class="fillin">[Last name]</span></h1>
+    <p class="role">Incoming PhD student in Astronomy &amp; Astrophysics, Princeton University</p>
+    <p class="bio">
+      I study <span class="fillin">[one clear sentence on your research focus — e.g. the formation and evolution of X]</span>.
+      I hold an AB summa cum laude from Harvard, with concentrations in Astrophysics, Physics, and History of Science,
+      and I am supported by an NSF Graduate Research Fellowship, currently deferred for a first-year fellowship at Princeton.
+      As an undergraduate I published three first-author papers on <span class="fillin">[topic]</span>.
+      Before starting my PhD, I spent a year as a Michael C. Rockefeller Fellow crewing traditional sailing vessels
+      in New Zealand and Taiwan, training in celestial navigation alongside Polynesian voyaging communities —
+      an apprenticeship in finding one's way by the same sky I now study.
+    </p>
+    <div class="hero-links">
+      <a href="mailto:you@princeton.edu" class="fillin" style="background:none;padding:0;border-color:currentColor;">email</a>
+      <a href="#" class="fillin" style="background:none;padding:0;border-color:currentColor;">google scholar</a>
+      <a href="#" class="fillin" style="background:none;padding:0;border-color:currentColor;">ads</a>
+      <a href="#" class="fillin" style="background:none;padding:0;border-color:currentColor;">cv (pdf)</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="about">
+    <h2 class="section-title">currently</h2>
+    <p>
+      Starting the PhD program in the Department of Astrophysical Sciences at Princeton in Fall 2026.
+      <span class="fillin">[One or two lines on what you're working on right now, or which group/advisor you'll be joining, once confirmed.]</span>
+    </p>
+  </section>
+
+  <section id="background">
+    <h2 class="section-title">background</h2>
+    <p>
+      I grew up overseas and have lived across several countries, which is part of where a long-standing
+      interest in navigation and orientation comes from — first practical, then scientific. I'm fluent in
+      French and proficient in Spanish. More on the non-astrophysics side of things is on the
+      <a href="interests.html">other interests</a> page.
+    </p>
+  </section>
+</main>
+
+<footer>
+  <span>© <span id="year"></span> Caleb <span class="fillin" style="background:none;padding:0;">Last name</span></span>
+  <span>Princeton, NJ</span>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
