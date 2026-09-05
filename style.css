@@ -190,7 +190,7 @@ p { margin: 0 0 16px; }
   border-radius: 2px;
 }
 
-.figure-flex { display: flex; gap: 32px; align-items: flex-start; flex-wrap: wrap; }
+.figure-flex { display: flex; gap: 32px; align-items: flex-start; flex-wrap: nowrap; }
 .figure-flex.reverse { flex-direction: row-reverse; }
 .figure-block { flex: none; margin: 0; }
 .figure-img {
