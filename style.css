@@ -204,7 +204,7 @@ p { margin: 0 0 16px; }
   width: 320px;
   height: 240px;
   object-fit: contain;
-  background: var(--paper-2);
+  /* background: var(--paper-2); */
   border: 1px solid var(--line-strong);
   display: block;
 }
