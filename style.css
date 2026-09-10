@@ -204,6 +204,20 @@ section[id^="figure"] + section[id^="figure"] {
   padding-top: 0;
 }
 
+.figure-bleed {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+
 .figure-flex { display: flex; gap: 32px; align-items: flex-start; flex-wrap: nowrap; }
 .figure-flex.reverse { flex-direction: row-reverse; }
 .figure-block { flex: none; margin: 0; }
