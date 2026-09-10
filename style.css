@@ -207,14 +207,8 @@ section[id^="figure"] + section[id^="figure"] {
 .figure-bleed {
   position: relative;
   left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  padding: 0 20px;
-  box-sizing: border-box;
+  margin-left: -35vw;
+  width: 70vw;
 }
 
 
